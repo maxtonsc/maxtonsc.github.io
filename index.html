@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Phantom test project</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="index.css">
+<style>
+</style>
+<script src="index.js"></script>
+<body>
+
+<div class="header">Phantom test project</div>
+<div class="">
+ <h2 id="page-title">Submit your links to Dr google to absorb into the galaxy brain</h2>
+</div>
+
+<div class="form-container"> 
+    <form id="link-submit">
+        <label for="link-input">Link</label><br>
+        <input type="text" id="link-input" name="link-input"><br>
+        <input type="submit" value="Submit" id="link-submit-button">
+        <label id="link-error">Error with link</label>
+    </form>
+    <form id="user-submit">
+        <label for="username">user name: <span id="current-username">Anonymous</span></label><br>
+        <input type="text" id="username-input" name="username"><br>
+        <input type="submit" value="Submit" id="user-submit-button">
+        <button type="button" id="clear-name">Clear Name</button>
+        <label id="name-error">Error with name</label>
+    </form>
+</div>
+
+<div id="links-container">
+    <img id="spinner" src="Spinner.gif" alt="loading list spinner"/>
+</div>
+
+<div id="pagination-container"></div>
+</body>
+</html>
